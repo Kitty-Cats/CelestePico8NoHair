@@ -1,0 +1,6 @@
+﻿- Name: Pico8NoHair
+  Version: 1.0.0
+  DLL: bin/Debug/net452/Pico8NoHair.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
