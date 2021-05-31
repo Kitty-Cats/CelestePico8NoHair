@@ -29,8 +29,8 @@ namespace Celeste.Mod.Pico8NoHair.Module
         // Those are optional: if you don't need one of those, you can remove it from the module.
 
         // If you need to store settings:
-        //public override Type SettingsType => typeof(ExampleModuleSettings);
-        //public static ExampleModuleSettings Settings => (ExampleModuleSettings)Instance._Settings;
+        public override Type SettingsType => typeof(Pico8HairModuleSettings);
+        public Pico8HairModuleSettings Settings => _Settings as Pico8HairModuleSettings;
 
         // If you need to store save data:
         //public override Type SaveDataType => typeof(ExampleModuleSaveData);
